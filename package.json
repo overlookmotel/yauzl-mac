@@ -14,25 +14,27 @@
     "url": "https://github.com/overlookmotel/yauzl-mac/issues"
   },
   "dependencies": {
+    "yauzl": "overlookmotel/yauzl#export-central-dir-attributes",
+    "yauzl-clone": "^1.0.4"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
-    "cross-env": "^5.1.4",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "cross-env": "^5.2.0",
     "istanbul": "^0.4.5",
-    "jshint": "^2.9.5",
-    "mocha": "^5.0.5"
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
   },
   "keywords": [
     "yauzl",
-	"zip",
-	"unzip",
-	"mac",
-	"mac os",
-	"macos",
-	"os x",
-	"osx",
-	"archive utility"
+    "unzip",
+    "zip",
+    "mac",
+    "mac os",
+    "macos",
+    "os x",
+    "osx",
+    "archive utility"
   ],
   "scripts": {
     "test": "npm run jshint && npm run test-main",

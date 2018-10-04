@@ -1,6 +1,6 @@
 # Changelog
 
-## Next
+## 1.0.0
 
 * Initial release
 * Update `yauzl-clone` dependency

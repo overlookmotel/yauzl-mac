@@ -2,7 +2,7 @@
   "name": "yauzl-mac",
   "version": "1.0.0",
   "description": "Unzipping with yauzl with added support for Mac OS Archive Utility ZIP files",
-  "main": "./lib/",
+  "main": "index.js",
   "author": {
     "name": "Overlook Motel"
   },

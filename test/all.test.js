@@ -8,7 +8,7 @@
 // Modules
 const chai = require('chai'),
 	expect = chai.expect,
-	yauzl = require('../lib/');
+	yauzl = require('../index.js');
 
 // Init
 chai.config.includeStack = true;

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Unzipping with yauzl with added support for Mac OS Archive Utility ZIP files",
   "main": "index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
   "author": {
     "name": "Overlook Motel"
   },

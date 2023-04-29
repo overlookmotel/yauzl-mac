@@ -7,7 +7,7 @@
 
 // Modules
 const chai = require('chai'),
-	expect = chai.expect,
+	{expect} = chai,
 	yauzl = require('../index.js');
 
 // Init
@@ -15,11 +15,10 @@ chai.config.includeStack = true;
 
 // Tests
 
-/* jshint expr: true */
 /* global describe, it */
 
-describe('Tests', function() {
-	it.skip('all', function() {
-		expect(yauzl).to.be.ok;
+describe('Tests', () => {
+	it.skip('all', () => {
+		expect(yauzl).to.be.ok; // eslint-disable-line no-unused-expressions
 	});
 });

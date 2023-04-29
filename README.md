@@ -1,12 +1,8 @@
-# yauzl-mac.js
-
-# Unzipping with yauzl with added support for Mac OS Archive Utility ZIP files
-
-## Current status
-
 [![NPM version](https://img.shields.io/npm/v/yauzl-mac.svg)](https://www.npmjs.com/package/yauzl-mac)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/overlookmotel/yauzl-mac/test.yml?branch=master)](https://github.com/overlookmotel/yauzl-mac/actions)
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/yauzl-mac/master.svg)](https://coveralls.io/r/overlookmotel/yauzl-mac)
+
+# Unzipping with `yauzl` with added support for Mac OS Archive Utility ZIP files
 
 ## What it does
 
@@ -22,7 +18,7 @@ Mac OS Archive Utility creates ZIP files which are corrupt according to the ZIP 
 
 This module is based on [yauzl](https://www.npmjs.com/package/yauzl) and parses the malformed metadata that Mac OS Archive Utility creates to be able to unzip these files successfully.
 
-There are no tests written, but I have tested this on thousands of ZIP files, including hundreds of malformed Mac OS Archive Utility files and it works.
+There are no tests due to the difficulties of deploying ZIP files to CI which are large enough to reproduce the faulty behavior in Mac OS Archive Utility, but has been tested this on thousands of ZIP files, including hundreds of malformed Mac OS Archive Utility files, and it successfully unzips all the examples.
 
 ## Usage
 
@@ -51,9 +47,9 @@ const yauzl = require('yauzl-promise').useYauzl(yauzlMac);
 // Now use yauzl with promisified API
 ```
 
-## Other useful additions to yauzl
+## Other useful additions to `yauzl`
 
-* [yauzl-crc](https://www.npmjs.com/package/yauzl-crc) - yauzl with CRC32 checksum verification
+* [yauzl-crc](https://www.npmjs.com/package/yauzl-crc) - `yauzl` with CRC32 checksum verification
 
 ## Versioning
 
@@ -78,6 +74,6 @@ If you discover a bug, please raise an issue on Github. https://github.com/overl
 Pull requests are very welcome. Please:
 
 * ensure all tests pass before submitting PR
-* add an entry to changelog
 * add tests for new features
 * document new functionality/API additions in README
+* do not add an entry to Changelog (Changelog is created when cutting releases)

@@ -5,7 +5,7 @@
 ## Current status
 
 [![NPM version](https://img.shields.io/npm/v/yauzl-mac.svg)](https://www.npmjs.com/package/yauzl-mac)
-[![Build Status](https://img.shields.io/travis/overlookmotel/yauzl-mac/master.svg)](http://travis-ci.org/overlookmotel/yauzl-mac)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/overlookmotel/yauzl-mac/test.yml?branch=master)](https://github.com/overlookmotel/yauzl-mac/actions)
 [![Dependency Status](https://img.shields.io/david/overlookmotel/yauzl-mac.svg)](https://david-dm.org/overlookmotel/yauzl-mac)
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/yauzl-mac.svg)](https://david-dm.org/overlookmotel/yauzl-mac)
 [![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/yauzl-mac.svg)](https://greenkeeper.io/)

@@ -17,7 +17,7 @@
     "url": "https://github.com/overlookmotel/yauzl-mac/issues"
   },
   "dependencies": {
-    "@overlookmotel/yauzl": "^3.0.0",
+    "@overlookmotel/yauzl": "^3.1.0",
     "yauzl-clone": "^2.0.0"
   },
   "devDependencies": {
